@@ -1,0 +1,106 @@
+/* Common */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Player */
+
+.player {
+    min-width: 320px;
+    background-image: linear-gradient(black, grey);
+    border-radius: .5rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
+
+
+/* Title */
+
+.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+/* Cover */
+
+.cover {
+    width: 128px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: .5rem;
+}
+
+
+/* Progress */
+
+.progress-container {
+    height: .6rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    height: 100%;
+    background-color: orange;
+    width: 0;
+}
+
+
+/* Controls */
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+}
+
+.controls i {
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+/* Songs */
+
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    margin-top: 1rem;
+}
+
+.songs a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.songs a.active {
+    color: white;
+    font-weight: bold;
+}
